@@ -1,5 +1,4 @@
 def my_each(collection)
-  if collection.kind_of?(String)
   i = 0
 
   while i < collection.length
@@ -8,6 +7,5 @@ def my_each(collection)
   end
 
   collection
-  else
 end
 end
