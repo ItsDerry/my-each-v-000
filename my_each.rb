@@ -1,5 +1,4 @@
 def my_each(collection)
-  if block_given?
   i = 0
 
   while i < collection.length
@@ -9,6 +8,5 @@ def my_each(collection)
 
   collection
 
-  else
 end
 end
